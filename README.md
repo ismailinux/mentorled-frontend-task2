@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vector Interview
 
-## Getting Started
+Welcome to **Vector Interview**, a streamlined interview management application built with Next.js and ShadCN UI. This project helps administrators manage and review interview sessions efficiently with a responsive dashboard, an interviews page with search and filter functionality, and a collapsible sidebar for navigation.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Installation](#installation)
+- [Technologies Used](#technologies-used)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Dashboard**: Displays a summary of recent interviews with cards for active, scheduled, completed, and cancelled sessions, and a responsive table.
+- **Interviews Page**: Lists all interviews with search functionality and filters by status (Active, Scheduled, Completed, Cancelled).
+- **Collapsible Sidebar**: Navigation menu with "Dashboard" and "Interviews" items, collapsing to icons when the "Dashboard" item is clicked.
+- **Responsive Design**: Adapts to various screen sizes, with buttons and tables shrinking or stacking as needed.
+- **Mock Data**: Preloaded with sample interview data for testing.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+To run this project locally, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/vector-interview.git
+   cd vector-interview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install Dependencies: Ensure you have Node.js installed. Then run:**:
+   ```bash
+   npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Run the Development Server:**:
+   ```bash
+  npm run dev
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  ## Technologies Used
+- Next.js: React framework for server-side rendering and static site generation.
+- ShadCN UI: Component library for styled and accessible UI elements (e.g., Sidebar, Table, Button).
+- Tailwind CSS: Utility-first CSS framework for responsive design.
+- Lucide React: Icon library for UI elements.
+- TypeScript: Typed JavaScript for better scalability and error checking.
+- Node.js: Runtime environment for development.
