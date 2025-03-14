@@ -31,7 +31,7 @@ To run this project locally, follow these steps:
 
 3. **Run the Development Server:**:
    ```bash
-  npm run dev
+   npm run dev
 
   ## Technologies Used
 - Next.js: React framework for server-side rendering and static site generation.
