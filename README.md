@@ -23,7 +23,7 @@ To run this project locally, follow these steps:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/ismailinux/mentorled-frontend-task2.git
-   cd vector-interview
+   cd mentorled-frontend-task2
 
 2. **Install Dependencies: Ensure you have Node.js installed. Then run:**:
    ```bash
